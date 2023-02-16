@@ -43,6 +43,7 @@ nav{
   background-image: url("/bype-site/image/logo-blue.png");
   background-repeat: no-repeat;
   background-size: contain;
+  background-position: center;
 }
 #logo:hover{
   background-image: url('/bype-site/image/logo-white.png');
