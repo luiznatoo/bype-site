@@ -32,7 +32,6 @@ header{
   align-items: center;
   justify-content: space-between; 
   margin: 0 auto;
-  border-bottom: 4px solid var(--cor-primaria);
 }
 nav{
 }
@@ -40,13 +39,13 @@ nav{
   width: 100px;
   height: 50px;
   cursor: pointer;
-  background-image: url("/bype-site/image/logo-blue.png");
+  background-image: url("/image/logo-blue.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
 }
 #logo:hover{
-  background-image: url('/bype-site/image/logo-white.png');
+  background-image: url('/image/logo-white.png');
   transition: 500ms;
 }
 ul{
@@ -82,7 +81,7 @@ main{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 30px 0 30px 0;
+  padding: 75px 0 175px 0;
 }
 .headline h1{
   color: var(--cor-de-fundo);
@@ -92,7 +91,6 @@ main{
   text-align: center;
   width: 95%;
 }
-
 .headline h1 span{
   color: var(--cor-primaria);
 }
@@ -104,6 +102,11 @@ main{
   font-weight: 100;
   margin: 0 auto;
   width: 95%;
+}
+.te{
+  margin-top: -100px;
+  display: grid;
+  align-content: center;
 }
 .headline hr{
   background-color: var(--cor-primaria);
@@ -177,7 +180,6 @@ main{
   justify-content: center;
   align-items: center;
   padding: 50px 0;
-  border-top: 4px solid var(--cor-primaria);
 }
 .teste h2{
   color: #FFFFFF;
